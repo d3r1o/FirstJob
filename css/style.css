@@ -35,3 +35,50 @@ body {
     padding: 10px;
     border-radius: 3px;
 }
+.main_form {
+    width: 300px;
+    margin: 0 auto;
+    padding-right: 20px;
+}
+.main_form input[type=text] {
+    width: 287px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.main_form input[type=password] {
+    width: 287px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#join_submit {
+    padding: 10px;
+    width: 320px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.log_in {
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.log_in p {
+    margin-top: 10px;
+    text-align: center;
+}
+.log_in a {
+    text-decoration: none;
+    color: blueviolet;
+}
+.log_in a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
