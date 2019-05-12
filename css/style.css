@@ -24,17 +24,6 @@ body {
     margin-top: 20px;
     font-weight: bold;
 }
-.vk_button p {
-    background-color: blue;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 300px;
-    text-align: center;
-    color: ivory;
-    font-size: 25px;
-    padding: 10px;
-    border-radius: 3px;
-}
 .main_form {
     width: 300px;
     margin: 0 auto;
