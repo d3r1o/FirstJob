@@ -1,6 +1,4 @@
-body {
-      margin: 0;
-      text-align: center;
+body {   
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     }
 
@@ -104,16 +102,6 @@ body {
       background-size: 100% 100%;
     }
 
-    /*.slider__control_prev::before {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-    }
-
-    .slider__control_next::before {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-    } */
-
-    /* индикаторы слайдера */
-
     .slider__indicators {
       position: absolute;
       right: 0;
@@ -211,52 +199,5 @@ body {
     .slider__item_title {
       font-size: 2rem;
     }
-
-    /*стилизация шапки*/
-
-    .header {
-      position: absolute;   
-    }
-    .logo {
-      margin-top: 20px;
-
-    }
-    .logo-menu {
-      margin-left: 100px;
-      margin-top: 20px;
-    }
-    .authorization {
-      float: right;
-    }
-
-    /* меню */
-    ul {
-      list-style: none; 
-      margin: 0; 
-      padding-left: 0;
-    }
-
-     li {
-      float:left;
-      margin-right: 10px;
-    }
-
-     a {
-      color: white;
-    }
-
-     a:hover {
-      text-decoration: none;
-    }
-
-    
-
-
-
-
-
-
-
-
     #head-menu { z-index: 2; }
     #slider { z-index: 1; }

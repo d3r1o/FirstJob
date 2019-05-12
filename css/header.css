@@ -1,0 +1,350 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.header {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+    width: 1022px;
+}
+.logo {
+	display: inline-block;
+	width: 1022px;
+}
+.logo-item {
+	float:left;
+	margin-top: 5px;
+}
+.log-in {
+	float: right;
+	margin-top:35px;
+}
+
+.menu {
+	float:left;
+}
+.fj {
+	float:right;
+}
+
+/*меню, ссылки*/
+
+ul {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0;
+}
+
+li {
+    float:left;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+	width:1022px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.matter {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.h_position_relative {
+    position: relative;
+}
+.stu_block {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.div {
+display: block;
+}
+.matter_left {
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: right;
+    position: relative;
+}
+.matter_badge {
+    float: right;
+    margin: 0 -20px 0 0;
+}
+.matter_right {
+    margin-left: 120px;
+    margin-top: -6px;
+}
+.h_color_black, a.h_color_black {
+    border-bottom-color: #000;
+    color: #000;
+}
+
+.matter_post {
+    margin: 0 130px 7px 0;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 24px;
+}
+.matter_post:hover {
+	text-decoration: none;
+}
+.matter_payment {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.h_color_gray_lt, a.h_color_gray_lt {
+    border-bottom-color: #919191;
+    color: #919191;
+}
+.matter_about {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    font-weight: 400!important;
+    word-wrap: break-word;
+}
+.matter_tags {
+    margin-bottom: -10px;
+}
+.m_green.sj_badge {
+    background-color: #22c431;
+}
+.sj_badge {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 26px;
+    height: 26px;
+    font-size: 13px;
+    background-color: #007EFC;
+    color: #fff;
+}
+.matter_tags .sj_tag {
+    font-size: 13px;
+    margin: 0 5px 10px 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.sj_tag {
+    border-radius: 3px;
+    border: #ccc solid 1px;
+    color: #505050;    
+    line-height: 24px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 5px;
+    position: relative;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all .2s;
+}
+.sj_tag:hover {
+    border: 1px solid #d6d6d6;
+    background: #e2e2e2;
+    background: rgba(204,204,204,.3);
+    color: #3d3d3d;
+}
+.Index_h1 {
+    margin: 50px 0 50px;
+}
+.sj_typo_h1 {
+    font-size: 33px;
+    line-height: 36px;
+    font-weight: 300;
+}
+.matter_link {
+    font-size: 16px;
+    margin: 25px 0 30px 0;
+    text-align: center;
+}
+.sj_btn {
+    border: 1px solid #ccc;
+    color: #505050;
+}
+.sj_btn:hover {
+    border: 1px solid #d6d6d6;
+    background: #e2e2e2;
+    background: rgba(204,204,204,.3);
+    color: #3d3d3d;
+}
+.sj_btn, .sj_btn:hover {   
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s;
+    font-size: 14px;
+    height: 33px;
+    line-height: 31px;
+    padding: 0 10px;
+}
+
+.sj_l_footer {
+
+    width: 100%;
+}
+
+
+.m_unregistered.FooterWr {
+    background: url(/img/footer_bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+.FooterWr {
+    display: block;
+    height: 100%;
+    padding-bottom: 20px;
+}
+.sj_l_content {
+    margin: 0 auto;
+    width:1022px;
+    padding: 0 20px;
+    position: relative;
+}
+.FooterNav {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+.FooterSeo {
+    display: block;
+	
+}
+.FooterSeoSlogan {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 17px;
+    padding-bottom: 14px;
+}
+.FooterLogo {
+    text-align: center;
+    padding: 32px 0 16px 0;
+}
+.m_whom_menu.FooterNav_list {
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+.FooterNav_list {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.FooterNav_list_item:first-child {
+    margin-left: 0;
+}
+.FooterNav_list_item {
+    display: inline-block;
+}
+.FooterNav_list_item a {
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    text-decoration: none;
+}
+.FooterNav_list_item a span {
+    text-decoration: underline;
+}
+.FooterNav_list_item a span:hover {
+    text-decoration: none;
+}
+.FooterNav_list_item {
+    display: inline-block;
+    margin-left: 12px;
+}
+.m_main_menu.FooterNav_list {
+    display: block;
+    position: relative;
+    margin: 0 260px 0 260px;
+    text-align: center;
+}
+.FooterNav_list {
+    list-style: none;
+    padding: 0;
+}
+.m_main_menu.FooterNav_list .FooterNav_list_item:first-child {
+    margin-left: 6px;
+}
+.m_main_menu.FooterNav_list .FooterNav_list_item {
+    margin-right: 6px;
+}
+.m_aux_menu.FooterNav_list {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.FooterNav_list {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.FooterSeparator {
+    height: 1px;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    margin: 31px 0;
+}
+
+
+.StudentCompanyListItem_logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+.CompanyList_item_company {
+    margin: 0 0 5px;
+}
+.CompanyList_item_about {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px;
+    word-wrap: break-word;
+}
+.CompanyList_item_contents, .CompanyList_item_contents a {
+    font-size: 17px;
+    text-decoration: none;
+}
+.CompanyList_item {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.sj_stu_block {
+    position: relative;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.CompanyList_item_left {
+    float: left;
+    text-align: right;
+    width: 100px;
+}
+.CompanyList_item_right {
+    margin-left: 120px;
+}
+.h_color_black, a.h_color_black, a.h_color_black:visited {
+    border-bottom-color: #000;
+    color: #000;
+}
+.CompanyList_item_catalog {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
