@@ -8,7 +8,7 @@ class ViewsController {
 	}
 	/*--------------------------------------------------------*/
 	public function actionLogin() {
-		require_once(ROOT . '/views/login.php');
+		require_once(ROOT . '/views/login_form.php');
 		return true;
 	}
 	public function actionSignup() {
