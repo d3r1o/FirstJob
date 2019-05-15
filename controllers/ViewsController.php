@@ -8,11 +8,15 @@ class ViewsController {
 	}
 	/*--------------------------------------------------------*/
 	public function actionLogin() {
-		require_once(ROOT . '/views/login.html');
+		require_once(ROOT . '/views/login.php');
 		return true;
 	}
 	public function actionSignup() {
-		require_once(ROOT . '/views/signup.html');
+		require_once(ROOT . '/views/signup_form.php');
+		return true;
+	}
+	public function actionCompany() {
+		require_once(ROOT . '/views/main/company.php');
 		return true;
 	}
 }

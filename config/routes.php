@@ -4,7 +4,7 @@
 		//'' => '',
 		'login' => 'views/login',
 		'signup' => 'views/signup',
-		
+		'company' => 'views/company',
 		
 		
 		'' => 'views/index'		

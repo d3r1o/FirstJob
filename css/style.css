@@ -42,6 +42,7 @@ body {
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
+	margin-bottom: 20px;
 }
 #join_submit {
     padding: 10px;
@@ -56,7 +57,7 @@ body {
 .log_in {
     margin: 0 auto;
     width: 300px;
-    margin-top: 50px;
+    margin-top: 40px;
     padding-bottom: 50px;
 }
 .log_in p {
@@ -70,4 +71,13 @@ body {
 .log_in a:hover {
     text-decoration: underline;
     color: blueviolet;
+}
+.errors{
+margin-top: 10px;
+text-align: center;
+color: red;
+font-size: 20px;
+}
+form {
+	height:330px;
 }
