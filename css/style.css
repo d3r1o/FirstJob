@@ -22,6 +22,7 @@ body {
     text-align: center;
     font-size: 25px;
     margin-top: 20px;
+    margin-bottom: 30px;
     font-weight: bold;
 }
 .main_form {
@@ -32,7 +33,6 @@ body {
 .main_form input[type=text] {
     width: 287px;
     padding: 15px;
-    margin-top: 30px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -79,5 +79,41 @@ color: red;
 font-size: 20px;
 }
 form {
-	height:330px;
+	height:100%;
+}
+.year{
+    width: 320px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+/*при merge стилей удалить!*/
+.matter_link {
+    font-size: 16px;
+    margin: 25px 0 30px 0;
+    text-align: center;
+}
+.sj_btn {
+    border: 1px solid #ccc;
+    color: #505050;
+}
+.sj_btn:hover {
+    border: 1px solid #d6d6d6;
+    background: #e2e2e2;
+    background: rgba(204,204,204,.3);
+    color: #3d3d3d;
+}
+.sj_btn, .sj_btn:hover {   
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s;
+    font-size: 20px;
+    height: 33px;
+    line-height: 31px;
+    padding: 0 10px;
 }

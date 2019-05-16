@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,14 +15,8 @@
     <div class="social_connect">
         <p>Регистрация</p>
     </div>
-    <div class="matter_link">
-       <div class="students">
-           <a class="sj_btn" href="students_regis">Студент</a>
-       </div>
-       <div class="matter_link">
-           <a class="sj_btn" href="comp_regis">Компания</a>
-       </div> 
-        
+    <div class="main_form">
+     
     </div>
     <div class="log_in">
         <hr>
@@ -33,3 +27,5 @@
 </div>
 </body>
 </html>
+ -->
+Компания

@@ -22,7 +22,8 @@ if(isset($data['join'])){
 			while($user_result = $user_check->fetch_array()){
 				$user = $user_result;
 			}
-			$_SESSION['logged_user'] = $user;
+			$_SESSION['login'] = $user;
+
 		}else{
 			$errors[] = 'Не верный пароль';
 		}
