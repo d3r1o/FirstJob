@@ -3,7 +3,7 @@ require "./db.php";
 
 $data = $_POST;
 
-if(isset($data['signup'])){
+if(isset($data['signup_student'])){
 	//регистрируем
 	$errors = array();
 	
