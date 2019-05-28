@@ -27,4 +27,9 @@ class ViewsController {
 		require_once(ROOT . '/views/signup_student_form.php');
 		return true;
 	}
+    public function actionChoice_signup() {
+        require_once(ROOT . '/views/signup_choise.php');
+        return true;
+    }
 }
+
