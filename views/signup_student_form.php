@@ -13,7 +13,7 @@
 		</a>
     </div>
     <div class="social_connect">
-        <p>Регистрация</p>
+        <p>Регистрация студента</p>
     </div>
     <div class="main_form">
         <form method="post" class="box" action="">

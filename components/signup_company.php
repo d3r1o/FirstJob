@@ -3,7 +3,7 @@ require "db.php";
 
 $data = $_POST;
 
-if(isset($data['signup_student'])){
+if(isset($data['signup_company'])){
 	//регистрируем
 	$errors = array();
 	
@@ -33,15 +33,16 @@ if(isset($data['signup_student'])){
 	if(empty($errors)){
 		//все хорошо, регистрируем
 		$pass = password_hash($data['password'], PASSWORD_DEFAULT);
+
 		$sql = "INSERT INTO `users` (`id`, `email`, `pass`) VALUES (NULL, '".$data['email']."', '".$pass."')";
 		$mysqli->query($sql);
 
-		$student_query = $mysqli->query("SELECT id FROM users WHERE email = \"$email\" ");
-		while($student_result = $student_query->fetch_array()){
-			$student = $student_result['id'];
+		$company_query = $mysqli->query("SELECT id FROM users WHERE email = \"$email\" ");
+		while($company_result = $company_query->fetch_array()){
+			$company = $company_result['id'];
 		}
-		$student_insert = "INSERT INTO `student` (`id`, `name`, `surname`, `sex`, `birthday`, `abode`, `nationality`, `mobile_phone`, `id_user`) 
-												VALUES (NULL, '".$data['user_name']."', '".$data['surname']."', NULL, NULL, '".$data['abode']."', '".$data['nationality']."', '".$data['mobile_phone']."', '$student')";
+		$student_insert = "INSERT INTO `company` (`id`, `name_org`, `society`, `employees_sum`, `activity`, `city`, `name`, `surname`, `post`, `mobile_phone`, `id_user`) 
+		VALUES (NULL, '".$data['name_org']."', '".$data['society']."', NULL, NULL, '".$data['city']."', '".$data['name']."', '".$data['surname']."', '".$data['post']."', '".$data['mobile_phone']."', '$company')";
 		$mysqli->query($student_insert);
 
 	}else{

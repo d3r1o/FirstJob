@@ -30,30 +30,7 @@ body {
     margin: 0 auto;
     padding-right: 20px;
 }
-/*.main_form input[type=text] {
-    width: 287px;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-.main_form input[type=password] {
-    width: 287px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-	margin-bottom: 20px;
-}
-#join_submit {
-    padding: 10px;
-    width: 320px;
-    border: 1px solid blue;
-    border-radius: 3px;
-    background-color: blue;
-    color: white;
-    font-size: 20px;
-    margin-top: 20px;
-}*/
+
 .log_in {
     margin: 0 auto;
     width: 300px;
@@ -134,12 +111,6 @@ form {
     font-weight: 500;
 }
 .box{
-    /*width: 300px;
-    padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:  translate(-50%);*/
     text-align: center;
 }
 .box input[type="text"],.box input[type="password"]{
@@ -148,7 +119,7 @@ form {
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #3498db;
+    border: 2px solid #CC33FF;
     padding: 14px 10px;
     width: 200px;
     outline: none;
@@ -178,3 +149,24 @@ form {
     background: #2ecc71;
 }
 /*интеграция новых стилей*/
+.regis{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #CC33FF;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.matter_link a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.regis:hover {
+    background: #CC33FF;
+}
