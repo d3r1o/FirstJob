@@ -7,7 +7,7 @@
 		'company' => 'views/company',
 		'students_regis' => 'views/students_regis',
 		'comp_regis' => 'views/comp_regis',
-        'choice_signup' => 'views/choice_signup',
+
 		
 		
 		'' => 'views/index'		
