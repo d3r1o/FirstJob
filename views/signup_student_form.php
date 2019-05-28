@@ -31,7 +31,7 @@
             <input type="password" name="password_again" placeholder="Повторите пароль" title ="Повторите пароль">
 
             <input type="submit" name="signup_student" value="Присоединиться к FirstJob">
-            <?require(ROOT. '/components/signup.php');?>
+            <?require(ROOT. '/components/signup_student.php');?>
             <div <?if(!empty($errors)):?> class="errors"<?endif?>><?=$errors_result?></div>
         </form>
     </div>
