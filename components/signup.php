@@ -34,25 +34,9 @@ if(isset($data['signup_student'])){
 		//все хорошо, регистрируем
 		$pass = password_hash($data['password'], PASSWORD_DEFAULT);
 		$sql = "INSERT INTO `users` (`id`, `email`, `pass`) VALUES (NULL, '".$data['email']."', '".$pass."')";
-		//$mysqli->query($sql);
-		$student = $mysqli->query("SELECT id FROM users WHERE email = '".$data['email']."' ");
-        $student_result = $student->fetch_array();
-
+		$mysqli->query($sql);
 	}else{
 		$errors_result = array_shift($errors);
 	}
 }
 ?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<?echo $student_result['id'];?>
-</body>
-</html>
