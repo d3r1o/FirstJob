@@ -17,13 +17,12 @@
         <p>Авторизация</p>
     </div>
     <div class="main_form">
-        <?include "./components/login.php";?>
-        <form method="post" action = "/">
+        <form method="post" action = "/" class="box">
             <input id="email_input" type="text" name="email" placeholder="Адрес почты" title="Введите почту">
             <input id="password_input" type="password" name="password" placeholder="Пароль" title ="Введите пароль">
               <input id="join_submit" type="submit" name="join" value="Авторизоваться">
-                  
-            <div class="errors"><?=$errors_result?></div>
+            <?include "./components/login.php";?>
+            <div <?if(!empty($errors)):?> class="errors"<?endif?>><?=$errors_result?></div>
         </form>
     </div>
     <div class="log_in">

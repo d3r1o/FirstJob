@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="/css/slider.css">
   <link rel="stylesheet" href="/css/header.css">
+    <!-- шрифт   -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- шрифт   -->
+
   <title></title>
 </head>
 <body>
@@ -29,13 +33,10 @@
 	<div class="top-menu">
 		<div class="menu">
 			<ul>
-				<li><a href="#">Первая работа</a></li>
-				<li><a href="#">Стажировки</a></li>
+				<li><a href="/">Первая работа</a></li>
+				<li><a href="internships">Стажировки</a></li>
 				<li><a href="company">Компании</a></li>
 			</ul>
-		</div>
-		<div class="fj">
-			<a href="#">Получить первую работу</a>
 		</div>
 	</div>
 	
@@ -49,7 +50,7 @@
       <li class="slider__indicator" data-slide-to="3"></li>
     </ol>
     <div class="slider__items">
-      <div class="slider__item slider__item_1 slider__item_active">
+      <div class="slider__item slider__item_1 slider__item_active " >
         <div class="slider__item_inner">
           <span class="slider__item_title">
             Lorem ipsum dolor

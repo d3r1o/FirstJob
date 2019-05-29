@@ -22,7 +22,6 @@
         <a href="comp_regis">
            <div class="regis">Компания</div>
         </a>
-        
     </div>
     <div class="log_in">
         <hr>

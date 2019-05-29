@@ -1,5 +1,5 @@
 <?require(ROOT. '/header.php'); ?>    
-	<h1 class="sj_typo_h1 Index_h1">Всероссийская база стажировок</h1>
+	<h1 class="sj_typo_h1 Index_h1">Стажировки</h1>
 	<div class="matter stu_block h_position_relative">
 		<div>
 			<div class="matter_left">

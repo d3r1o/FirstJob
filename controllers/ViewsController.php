@@ -19,6 +19,11 @@ class ViewsController {
 		require_once(ROOT . '/views/main/company.php');
 		return true;
 	}
+	public function actionInternships() {
+		require_once(ROOT . '/views/main/internships.php');
+		return true;
+	}
+
 	public function actionComp_regis() {
 		require_once(ROOT . '/views/signup_company_form.php');
 		return true;

@@ -4,6 +4,7 @@
 }
 body {
     background-color: gainsboro;
+    font-family: 'Roboto Slab', serif;
 }
 .content{
     margin: 0 auto;

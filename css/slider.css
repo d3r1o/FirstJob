@@ -1,5 +1,5 @@
-body {   
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+body {
+    font-family: 'Roboto Slab', serif;
     }
 
     .slider {
@@ -27,6 +27,7 @@ body {
       transition: transform 1s ease;
       /* не показывать обратную сторону трансформируемого элемента */
       backface-visibility: hidden;
+
     }
 
     .slider__item_active,
@@ -159,16 +160,29 @@ body {
       max-width: 100%;
     }
 
+
     .slider__item_1 {
-      background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+        background: url(/img/1.jpg) no-repeat center top ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .slider__item_2 {
-      background: linear-gradient(to right, #dd1818, #333333);
+        background: url(/img/2.jpg) no-repeat center top fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .slider__item_3 {
-      background: linear-gradient(to right, #093028, #237a57);
+        background: url(/img/3.jpg) no-repeat center top fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .slider__item_4 {
@@ -194,10 +208,13 @@ body {
       align-items: center;
       justify-content: center;
 
+
     }
 
     .slider__item_title {
       font-size: 2rem;
+        color: white;
+
     }
     #head-menu { z-index: 2; }
     #slider { z-index: 1; }

@@ -26,9 +26,7 @@
 .menu {
 	float:left;
 }
-.fj {
-	float:right;
-}
+
 
 /*меню, ссылки*/
 
@@ -121,7 +119,7 @@ display: block;
     margin-bottom: -10px;
 }
 .m_green.sj_badge {
-    background-color: #22c431;
+    background-color: #CC33FF;
 }
 .sj_badge {
     display: inline-block;

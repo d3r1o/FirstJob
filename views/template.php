@@ -1,3 +1,3 @@
 <?php 
-require(ROOT. '/views/main/internships.php');
+require(ROOT. '/views/main/firstjob.php');
 ?>
