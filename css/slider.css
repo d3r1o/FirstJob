@@ -186,7 +186,11 @@ body {
     }
 
     .slider__item_4 {
-      background: linear-gradient(to right, #243B55, #141E30);
+        background: url(/img/4.jpg) no-repeat center top fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .slider__item {
