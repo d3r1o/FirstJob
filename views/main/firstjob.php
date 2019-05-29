@@ -1,33 +1,32 @@
 <?require(ROOT. '/header.php'); ?>
-<h1 class="sj_typo_h1 Index_h1">Первая работа</h1>
+<?include "components/firstjob.php";?>
+<h1 class="sj_typo_h1 Index_h1">Вакансии</h1>
+<? foreach($data as $data):?>
 <div class="matter stu_block h_position_relative">
     <div>
         <div class="matter_left">
             <img src="/img/matter.png" class="matterElement_logo">
         </div>
         <div class="matter_badge">
-            <div class="sj_badge m_green">Стажировка</div>
+            <div class="sj_badge m_green">Первая работа</div>
         </div>
         <div class="matter_right m_logo">
             <a href="#" class="h_color_black h_border_none">
-                <h2 class="matter_post h_color_black">Архивист-практикант</h2>
+                <h2 class="matter_post h_color_black"><?=$data['name'];?></h2>
             </a>
             <div class="matter_payment h_color_gray_lt">
-                Неоплачиваемая стажировка
+                <?=$data['income_level'];?>&nbsp;рублей
             </div>
             <div class="matter_about h_color_black">
-                • Комфортный офис в районе м. Аэропорт,
-                • Для Вас: чай, кофе, конфетки, дружелюбная и позитивная атмосфера!
+                <?=$data['description'];?>
             </div>
             <div class="matter_tags h_color_black">
-                <a href="#" class="sj_tag">Содексо ЕвроАзия (Организация)</a>
-                <a href="#" class="sj_tag">Административная работа, секретариат, АХО (Специализация)</a>
-                <a href="#" class="sj_tag">Москва (город)</a>
+                <p class="sj_tag"><?=$data['name_org'];?></p>
+                <p class="sj_tag"><?=$data['specialization'];?></p>
+                <p class="sj_tag"><?=$data['city'];?></p>
             </div>
         </div>
     </div>
 </div>
-<div class="matter_link">
-    <a href="#" class="sj_btn">Все стажировки</a>
-</div>
+<?endforeach;?>
 <?require(ROOT. '/footer.php');?>

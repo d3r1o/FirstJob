@@ -1,23 +1,26 @@
 <?require(ROOT. '/header.php'); ?>
+<?include "components/company.php";?>
     <h1 class="sj_typo_h1 Index_h1">Компании</h1>
+<? foreach($data as $data):?>
 	<div class="CompanyList_item sj_stu_block h_clearfix">
 		<div class="CompanyList_item_left">
-			<img src="/img/matter.png"class="StudentCompanyListItem_logo">
-		</div>		
+			<img src="/img/matter.png" class="StudentCompanyListItem_logo">
+		</div>
+        <div class="matter_badge" style="margin:0;">
+            <span class="CompanyList_item_contents_item_text"><?=$data['mobile_phone'];?></span>
+        </div>
 		<div class="CompanyList_item_right">
 			<a href="" class="h_color_black h_border_none">
-				<h2 class="sj_typo_h2 CompanyList_item_company h_color_black">Solo-it Studio, Самара</h2>
+				<h2 class="sj_typo_h2 CompanyList_item_company h_color_black"><?=$data['name_org'];?></h2>
 			</a>
 			<div class="CompanyList_item_catalog h_color_gray_lt"></div>
 			<div class="CompanyList_item_about h_color_black">
-				Разработка, продвижение и поддержка сайтов.
+                <?=$data['activity'];?>
 			</div>
 			<div class="CompanyList_item_contents">		
-				<span class="CompanyList_item_contents_item_text">330 стажировок</span>
+				<span class="CompanyList_item_contents_item_text"><?=$data['city'];?></span>
 			</div>          
 		</div>  
 	</div>
-	<div class="matter_link">
-        <a href="#" class="sj_btn">Все компании</a>
-    </div>
+<?endforeach;?>
 <?require(ROOT. '/footer.php');?>	

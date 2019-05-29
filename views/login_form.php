@@ -28,7 +28,7 @@
     <div class="log_in">
         <hr>
         <p>
-            Отсуствует аккаунт? <a href="/views/signup.html">Зарегестрироваться</a>
+            Отсуствует аккаунт? <a href="signup">Зарегестрироваться</a>
         </p>
     </div>
 </div>

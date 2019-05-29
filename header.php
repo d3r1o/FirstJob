@@ -53,17 +53,17 @@
       <div class="slider__item slider__item_1 slider__item_active " >
         <div class="slider__item_inner">
           <span class="slider__item_title">
-            Lorem ipsum dolor
+            First Job - это
           </span>
           <span class="slider__items_description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
+            Первая работа - первый опыт
           </span>
         </div>
       </div>
       <div class="slider__item slider__item_2">
         <div class="slider__item_inner">
           <span class="slider__item_title">
-            Lorem ipsum dolor
+            First Job - это
           </span>
           <span class="slider__items_description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
@@ -73,17 +73,17 @@
       <div class="slider__item slider__item_3">
         <div class="slider__item_inner">
           <span class="slider__item_title">
-            Lorem ipsum dolor
+            First Job - это
           </span>
           <span class="slider__items_description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
+            Стажировки для студентов
           </span>
         </div>
       </div>
       <div class="slider__item slider__item_4">
         <div class="slider__item_inner">
           <span class="slider__item_title">
-            Lorem ipsum dolor
+            First Job - это
           </span>
           <span class="slider__items_description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?

@@ -13,13 +13,13 @@
                 </ul>
                 <ul class="FooterNav_list m_main_menu">
 					<li class="FooterNav_list_item">
-                        <a href="#"><span>Первая работа</span></a>
+                        <a href="/"><span>Первая работа</span></a>
                     </li>
                     <li class="FooterNav_list_item">
-                        <a href="#"><span>Стажировки</span></a>
+                        <a href="internships"><span>Стажировки</span></a>
                     </li>
                     <li class="FooterNav_list_item">
-                        <a href="#"><span>Компании</span></a>
+                        <a href="company"><span>Компании</span></a>
                     </li>
                     <li class="FooterNav_list_item">
                         <a href="#" target="_blank"><span>Правила работы</span></a>

@@ -1,7 +1,6 @@
-<?require(ROOT. '/header.php'); ?>
-
+<?require(ROOT. '/header.php'); ?>    
+	<h1 class="sj_typo_h1 Index_h1">Стажировки</h1>
 <?include "components/internships.php";?>
-	<h1 class="sj_typo_h1 Index_h1"><?=$count?>&nbsp;cтажировки</h1>
 <? foreach($data as $data):?>
 	<div class="matter stu_block h_position_relative">
 		<div>
@@ -35,5 +34,7 @@
 		</div>
 	</div>
 <?endforeach;?>
-
+	<div class="matter_link">
+        <a href="#" class="sj_btn">Все стажировки</a>
+    </div>
 <?require(ROOT. '/footer.php');?>	
