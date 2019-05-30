@@ -24,6 +24,7 @@ if(isset($data['join'])){
 			}
 			$_SESSION['login'] = $user;
 
+
 		}else{
 			$errors[] = 'Не верный пароль';
 		}
