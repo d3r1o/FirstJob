@@ -51,10 +51,8 @@ body {
     color: blueviolet;
 }
 .errors{
-margin-top: 10px;
-font-size: 17px;
-
-border: 0;
+    font-size: 17px;
+    border: 0;
     background: none;
     display: block;
     margin: 20px auto;
@@ -170,4 +168,33 @@ form {
 }
 .regis:hover {
     background: #CC33FF;
+}
+.check_entry{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #CC33FF;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.check_entry:hover{
+    background: #CC33FF;
+}
+.checkin{
+    padding-bottom: 30px;
+}
+.checkin a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.check_name{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
 }

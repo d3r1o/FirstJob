@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.back_color{
+    width: 100%;
+    background-color: #9ACD32;
+    padding: 10px 10px;
+}
+.top_nav {
+    width: 1022px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    float: left;
+    margin-top: 30px;
+}
+.profile {
+    float: right;
+    margin-top: 30px;
+}
+
+/*меню, ссылки*/
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    float:left;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/*меню, ссылки*/

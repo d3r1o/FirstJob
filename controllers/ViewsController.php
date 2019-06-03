@@ -31,5 +31,9 @@
             require_once(ROOT . '/views/autos/signup_student_form.php');
             return true;
         }
+        public function actionlogout() {
+            require_once(ROOT . '/components/logout.php');
+            return true;
+        }
 
     }

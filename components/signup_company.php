@@ -45,6 +45,17 @@ if(isset($data['signup_company'])){
 		VALUES (NULL, '".$data['name_org']."', '".$data['society']."', NULL, NULL, '".$data['city']."', '".$data['name']."', '".$data['surname']."', '".$data['post']."', '".$data['mobile_phone']."', '$company')";
 		$mysqli->query($student_insert);
 
+		$user_check = $mysqli->query("SELECT * FROM `users` WHERE `email` = \"$email\" ");
+		while($user_result = $user_check->fetch_array()){
+			$user = $user_result;
+		}
+		$_SESSION['login'] = $user;
+
+		$check_query = $mysqli->query("SELECT b.name FROM users a, company b WHERE a.id = b.id_user AND a.id = \"$company\"  ");
+		while($check_result = $check_query->fetch_array()){
+			$check = $check_result;
+		}
+
 	}else{
 		$errors_result = array_shift($errors);
 	}

@@ -8,6 +8,7 @@
 		'students_regis' => 'views/students_regis',
 		'comp_regis' => 'views/comp_regis',
         'internships' => 'views/internships',
+        'logout' => 'views/logout',
 		
 		
 		'' => 'views/index'		
