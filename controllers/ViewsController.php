@@ -1,14 +1,4 @@
 <?php
-session_start();
-if(isset($_SESSION['login'])){
-    class ViewsController {
-        public function actionIndex() {
-            require_once(ROOT . '/views/inner/template.php');
-            return true;
-        }
-    }
-
-}else{
     class ViewsController {
 
         public function actionIndex() {
@@ -17,11 +7,11 @@ if(isset($_SESSION['login'])){
         }
         /*--------------------------------------------------------*/
         public function actionLogin() {
-            require_once(ROOT . '/views/login_form.php');
+            require_once(ROOT . '/views/autos/login_form.php');
             return true;
         }
         public function actionSignup() {
-            require_once(ROOT . '/views/signup_form.php');
+            require_once(ROOT . '/views/autos/signup_form.php');
             return true;
         }
         public function actionCompany() {
@@ -34,13 +24,12 @@ if(isset($_SESSION['login'])){
         }
 
         public function actionComp_regis() {
-            require_once(ROOT . '/views/signup_company_form.php');
+            require_once(ROOT . '/views/autos/signup_company_form.php');
             return true;
         }
         public function actionStudents_regis() {
-            require_once(ROOT . '/views/signup_student_form.php');
+            require_once(ROOT . '/views/autos/signup_student_form.php');
             return true;
         }
 
     }
-}
