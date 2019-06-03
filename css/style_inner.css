@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    /*width: 1022px;*/
+    /*margin: 0 auto;*/
+    background-color: black;
+}
+.logo{
+    display: block;
+
+}
+.logo-item{
+    float: left;
+}
+.top-menu{
+    float: left;
+}
+.profile{
+    float: right;
+
+}
+
+/*меню, ссылки*/
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    float:left;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/*меню, ссылки*/
