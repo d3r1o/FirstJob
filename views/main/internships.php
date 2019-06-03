@@ -1,4 +1,4 @@
-<?require(ROOT. '/header.php'); ?>
+<?require(ROOT. '/views/main/header.php'); ?>
 
 <?include "components/internships.php";?>
 	<h1 class="sj_typo_h1 Index_h1"><?=$count?>&nbsp;cтажировки</h1>
@@ -36,4 +36,4 @@
 	</div>
 <?endforeach;?>
 
-<?require(ROOT. '/footer.php');?>	
+<?require(ROOT. '/views/main/footer.php');?>

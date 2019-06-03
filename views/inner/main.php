@@ -1,4 +1,4 @@
-<?require(ROOT. '/views/main/header.php'); ?>
+<?require(ROOT. '/header.php'); ?>    
 	<h1 class="sj_typo_h1 Index_h1">Стажировки</h1>
 <?include "components/internships.php";?>
 <? foreach($data as $data):?>
@@ -37,4 +37,4 @@
 	<div class="matter_link">
         <a href="#" class="sj_btn">Все стажировки</a>
     </div>
-<?require(ROOT. '/views/main/footer.php');?>
+<?require(ROOT. '/footer.php');?>	

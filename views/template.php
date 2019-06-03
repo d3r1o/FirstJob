@@ -6,6 +6,5 @@ if(isset($_SESSION['login'])){
 
     require(ROOT. '/views/main/firstjob.php');
 }
-
 ?>
 

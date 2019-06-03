@@ -1,4 +1,4 @@
-<?require(ROOT. '/views/main/header.php'); ?>
+<?require(ROOT. '/header.php'); ?>
 <?include "components/company.php";?>
     <h1 class="sj_typo_h1 Index_h1">Компании</h1>
 <? foreach($data as $data):?>
@@ -23,4 +23,4 @@
 		</div>  
 	</div>
 <?endforeach;?>
-<?require(ROOT. '/views/main/footer.php');?>
+<?require(ROOT. '/footer.php');?>	

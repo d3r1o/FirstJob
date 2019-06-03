@@ -1,4 +1,4 @@
-<?require(ROOT. '/views/main/header.php'); ?>
+<?require(ROOT. '/header.php'); ?>
 <?include "components/firstjob.php";?>
 <h1 class="sj_typo_h1 Index_h1">Вакансии</h1>
 <? foreach($data as $data):?>
@@ -29,4 +29,4 @@
     </div>
 </div>
 <?endforeach;?>
-<?require(ROOT. '/views/main/footer.php');?>
+<?require(ROOT. '/footer.php');?>
