@@ -26,12 +26,13 @@ if(isset($data['join'])){
 
             //запрос на имя пользователя, проверка является ли пользователь представителем компании или студентом
 			$check_query = $mysqli->query("SELECT b.name FROM users a, student b WHERE a.id = b.id_user AND a.id = ".$user['id']." ");
-			while($check_result = $check_query->fetch_array()){
+			while($check_result = $check_query->fetch_assoc()){
 			    $check = $check_result;
 			}
-			if(!empty($check)){
+
+			if(empty($check)){
 			    $check_query = $mysqli->query("SELECT b.name FROM users a, company b WHERE a.id = b.id_user AND a.id = ".$user['id']." ");
-			    while($check_result = $check_query->fetch_array()){
+			    while($check_result = $check_query->fetch_assoc()){
 			        $check = $check_result;
 			    }
 			}

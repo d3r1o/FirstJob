@@ -14,6 +14,7 @@
   <title></title>
 </head>
 <body>
+<?include "components/user.php";?>
 <div class="back_color">
     <div class="top_nav">
         <div class="logo">
@@ -28,14 +29,41 @@
         <div class="menu">
             <ul>
                 <li><a href="/">Первая работа</a></li>
-                <li><a href="/">Стажировки</a></li>
-                <li><a href="/">Компании</a></li>
+                <li><a href="internships">Стажировки</a></li>
+                <li><a href="company">Компании</a></li>
             </ul>
         </div>
-        <div class="profile">
+
+        <nav role="navigation" class="navigation">
             <ul>
-                <li><a href="#">Мой Профиль</a></li>
-                <li><a href="logout">Выход</a></li>
+
+                <li><a href="#"><img style="width: 40px; height: 40px;" src="/img/home_icon_white.png" ></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Мой профиль</a></li>
+                        <li><a href="logout">Выход</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="profile">
+    <div class="user">
+        <div class="users">
+            <div class="user_name"><?=$user['name'];?>,&nbsp;</div>
+            <div class="user_city">
+                <?if(!empty($user['abode'])):?>
+                    <?=$user['abode'];?>
+                <?else:?>
+                    <?=$user['city'];?>
+                <?endif?>
+            </div>
+        </div>
+        <div class="user_menu">
+            <ul>
+                <li><a href="">Мой профиль</a></li>
+                <li><a href="logout">Отклики</a></li>
             </ul>
         </div>
     </div>
@@ -44,3 +72,5 @@
 
 
 <div class = "container">
+
+

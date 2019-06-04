@@ -1,8 +1,7 @@
 <?require(ROOT. '/views/main/header.php'); ?>
-
 <?include "components/internships.php";?>
 	<h1 class="sj_typo_h1 Index_h1"><?=$count?>&nbsp;cтажировки</h1>
-<? foreach($data as $data):?>
+<?foreach($data as $data):?>
 	<div class="matter stu_block h_position_relative">
 		<div>
 			<div class="matter_left">
@@ -35,5 +34,4 @@
 		</div>
 	</div>
 <?endforeach;?>
-
 <?require(ROOT. '/views/main/footer.php');?>
