@@ -1,9 +1,6 @@
 <?require(ROOT. '/views/main/header.php'); ?>
 <?include "components/internships.php";?>
-<?echo '<pre>';
-print_r($data);
-echo '</pre>';
-?>
+
 	<h1 class="Index_h1"><?=$count?>&nbsp;cтажировки</h1>
 <?foreach($data as $data):?>
 	<div class="matter stu_block h_position_relative">

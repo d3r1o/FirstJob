@@ -1,6 +1,6 @@
 <?require(ROOT. '/views/main/header.php'); ?>
 <?include "components/company.php";?>
-    <h1 class="sj_typo_h1 Index_h1">Компании</h1>
+    <h1 class="Index_h1">Компании</h1>
 <? foreach($data as $data):?>
 	<div class="CompanyList_item sj_stu_block h_clearfix">
 		<div class="CompanyList_item_left">

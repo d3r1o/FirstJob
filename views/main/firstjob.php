@@ -1,6 +1,6 @@
 <?require(ROOT. '/views/main/header.php'); ?>
 <?include "components/firstjob.php";?>
-<h1 class="sj_typo_h1 Index_h1">Вакансии</h1>
+<h1 class=" Index_h1">Вакансии</h1>
 <? foreach($data as $data):?>
 <div class="matter stu_block h_position_relative">
     <div>
