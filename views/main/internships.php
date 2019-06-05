@@ -1,6 +1,5 @@
 <?require(ROOT. '/views/main/header.php'); ?>
 <?include "components/internships.php";?>
-
 	<h1 class="Index_h1"><?=$count?>&nbsp;cтажировки</h1>
 <?foreach($data as $data):?>
 	<div class="matter stu_block h_position_relative">
@@ -12,7 +11,7 @@
 				<div class="sj_badge m_green">Стажировка</div>
 			</div>
 			<div class="matter_right m_logo">
-				<a href="detail?id=<?=$data['id_company']?>" class="h_color_black h_border_none">
+				<a href="detail_intern?id=<?=$data['id_company']?>&only=<?=$data['only']?>" class="h_color_black h_border_none">
 					<h2 class="matter_post h_color_black"><?=$data['name_internship']?></h2>
 				</a>
 				<div class="matter_payment h_color_gray_lt">

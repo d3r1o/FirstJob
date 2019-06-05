@@ -9,7 +9,8 @@
 		'comp_regis' => 'views/comp_regis',
         'internships' => 'views/internships',
         'logout' => 'views/logout',
-        'detail' => 'views/detail',
+        'detail_intern' => 'views/detail_intern',
+        'detail_job' => 'views/detail_job',
 		
 		
 		'' => 'views/index'		
