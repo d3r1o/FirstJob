@@ -67,6 +67,10 @@ if(isset($_SESSION['login'])){
             require_once(ROOT . '/views/main/detail_job.php');
             return true;
         }
+        public function actionDetail_comp() {
+            require_once(ROOT . '/views/main/detail_comp.php');
+            return true;
+        }
 
     }
 }

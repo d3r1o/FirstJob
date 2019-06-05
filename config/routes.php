@@ -11,7 +11,8 @@
         'logout' => 'views/logout',
         'detail_intern' => 'views/detail_intern',
         'detail_job' => 'views/detail_job',
-		
+        'detail_comp' => 'views/detail_comp',
+
 		
 		'' => 'views/index'		
 		//'main' => 'views/template' // actionTemplate в ViewsController	
