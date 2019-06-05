@@ -37,7 +37,7 @@
         <nav role="navigation" class="navigation">
             <ul>
 
-                <li><a href="#"><img style="width: 40px; height: 40px;" src="/img/home_icon_white.png" ></a>
+                <li><a href="#"><img style="width: 40px; height: 40px;" src="/img/icon.png" ></a>
                     <ul class="dropdown">
                         <li><a href="#">Мой профиль</a></li>
                         <li><a href="logout">Выход</a></li>

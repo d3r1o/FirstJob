@@ -25,6 +25,7 @@
 
 .menu {
 	float:left;
+    margin-left: -35px;
 }
 
 
@@ -266,7 +267,7 @@ display: block;
 }
 .FooterNav_list_item {
     display: inline-block;
-    margin-left: 12px;
+    /*margin-left: 12px;*/
 }
 .m_main_menu.FooterNav_list {
     display: block;
@@ -347,3 +348,5 @@ display: block;
     font-size: 13px;
     margin-bottom: 5px;
 }
+
+

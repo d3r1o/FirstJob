@@ -9,6 +9,7 @@
 		'comp_regis' => 'views/comp_regis',
         'internships' => 'views/internships',
         'logout' => 'views/logout',
+        'detail' => 'views/detail',
 		
 		
 		'' => 'views/index'		

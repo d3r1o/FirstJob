@@ -59,6 +59,10 @@ if(isset($_SESSION['login'])){
             require_once(ROOT . '/components/logout.php');
             return true;
         }
+        public function actionDetail() {
+            require_once(ROOT . '/views/main/detail_internships.php');
+            return true;
+        }
 
     }
 }
