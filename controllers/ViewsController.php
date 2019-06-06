@@ -33,6 +33,14 @@ if(isset($_SESSION['login'])){
             require_once(ROOT . '/views/inner/detail_comp.php');
             return true;
         }
+        public function actionProfile_student() {
+            require_once(ROOT . '/views/inner/profile_student.php');
+            return true;
+        }
+        public function actionProfile_company() {
+            require_once(ROOT . '/views/inner/profile_company.php');
+            return true;
+        }
 
     }
 }else{

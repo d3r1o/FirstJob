@@ -1,31 +1,26 @@
-<?session_start();?>
+<? session_start(); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-
-<!--  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
-
-  <link rel="stylesheet" href="/css/inner.css">
-  <link rel="stylesheet" href="/css/detail.css">
-    <!-- шрифт   -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/inner.css">
+    <link rel="stylesheet" href="/css/detail.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <!-- шрифт   -->
 
-  <title></title>
+    <title>FirstJob</title>
 </head>
 <body>
-<?include "components/user.php";?>
+<? include "components/user.php"; ?>
 <div class="back_color">
     <div class="top_nav">
         <div class="logo">
-            <?if ($_SERVER[REQUEST_URI]=="/"):?>
+            <? if ($_SERVER[REQUEST_URI] == "/"): ?>
                 <img src="/img/logo.png">
-            <?else:?>
+            <? else: ?>
                 <a href="/">
                     <img src="/img/logo.png">
                 </a>
-            <?endif;?>
+            <? endif; ?>
         </div>
         <div class="menu">
             <ul>
@@ -34,44 +29,33 @@
                 <li><a href="company">Компании</a></li>
             </ul>
         </div>
-
-        <nav role="navigation" class="navigation">
+        <div class="menu">
             <ul>
-
-                <li><a href="#"><img style="width: 40px; height: 40px;" src="/img/icon.png" ></a>
-                    <ul class="dropdown">
-                        <li><a href="#">Мой профиль</a></li>
-                        <li><a href="logout">Выход</a></li>
-                    </ul>
-                </li>
+                <li><img src="/img/profile20.png"><a
+                        <? if ($user['type'] == "Студент"): ?>href="profile_student?id=<?= $user['id'] ?>"
+                        <? else: ?>href="profile_company?id=<?= $user['id'] ?>"<? endif ?>> Мой профиль</a></li>
+                <li><img src="/img/logout20.png"><a href="logout"> Выход</a></li>
             </ul>
-        </nav>
+        </div>
     </div>
 </div>
 
 <div class="profile">
     <div class="user">
         <div class="users">
-            <div class="user_name"><?=$user['name'];?>,&nbsp;</div>
+            <div class="user_name"><?= $user['name']; ?>,&nbsp;</div>
             <div class="user_city">
-                <?if(!empty($user['abode'])):?>
-                    <?=$user['abode'];?>
-                <?else:?>
-                    <?=$user['city'];?>
-                <?endif?>
+                <? if (!empty($user['abode'])): ?>
+                    <?= $user['abode']; ?>
+                <? else: ?>
+                    <?= $user['city']; ?>
+                <? endif ?>
             </div>
-        </div>
-        <div class="user_menu">
-            <ul>
-                <li><a href="">Мой профиль</a></li>
-                <li><a href="logout">Отклики</a></li>
-            </ul>
         </div>
     </div>
 </div>
 
 
-
-<div class = "container">
+<div class="container">
 
 

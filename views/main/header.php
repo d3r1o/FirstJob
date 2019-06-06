@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <!-- шрифт   -->
 
-  <title></title>
+  <title>FirstJob</title>
 </head>
 <body>
 <div class="header" id="head-menu">
