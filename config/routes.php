@@ -13,7 +13,7 @@
         'detail_job' => 'views/detail_job',
         'detail_comp' => 'views/detail_comp',
         'profile_student' => 'views/profile_student',
-        'profile_company' => 'views/profile_company',
+        'profile_crew' => 'views/profile_crew',
 
 		
 		'' => 'views/index'		

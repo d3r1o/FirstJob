@@ -19,4 +19,16 @@ $save = $_POST;
 
 if(isset($save['save'])){
 
+
+
+//    $update = $mysqli->query("UPDATE `student` SET `name` = ".$save['name'].", `surname` = ".$save['surname'].", `sex` = ".$save['sex'].",
+//                                            `birthday` = ".$save['birthday'].", `nationality` = ".$save['nationality'].", `mobile_phone` = ".$save['mobile_phone']."
+//                                    WHERE id_user = \"$id\" ");
+
+//    $test['name'] = "Иванович";
+//    echo $test['name'];
+//    $jun = $mysqli->query("UPDATE `student` SET `surname` = ".$test['name']." WHERE id_user = \"$id\" ");
+
 }
+
+

@@ -37,7 +37,7 @@ if(isset($_SESSION['login'])){
             require_once(ROOT . '/views/inner/profile_student.php');
             return true;
         }
-        public function actionProfile_company() {
+        public function actionProfile_crew() {
             require_once(ROOT . '/views/inner/profile_company.php');
             return true;
         }

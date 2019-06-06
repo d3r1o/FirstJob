@@ -12,7 +12,7 @@ while($check_result = $check_query->fetch_assoc()){
 }
 
 if(empty($user_id)){
-    $check_query = $mysqli->query("SELECT b.name, b.city FROM users a, company b WHERE a.id = b.id_user AND a.id = ".$users['id']." ");
+    $check_query = $mysqli->query("SELECT a.id, b.name, b.city FROM users a, company b WHERE a.id = b.id_user AND a.id = ".$users['id']." ");
     while($check_result = $check_query->fetch_assoc()){
         $user  = $check_result;
         $type = "Компания";

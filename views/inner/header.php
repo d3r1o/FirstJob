@@ -33,7 +33,7 @@
             <ul>
                 <li><img src="/img/profile20.png"><a
                         <? if ($user['type'] == "Студент"): ?>href="profile_student?id=<?= $user['id'] ?>"
-                        <? else: ?>href="profile_company?id=<?= $user['id'] ?>"<? endif ?>> Мой профиль</a></li>
+                        <? else: ?>href="profile_crew?id=<?= $user['id'] ?>"<? endif ?>> Мой профиль</a></li>
                 <li><img src="/img/logout20.png"><a href="logout"> Выход</a></li>
             </ul>
         </div>
