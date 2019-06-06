@@ -21,6 +21,18 @@ if(isset($_SESSION['login'])){
             require_once(ROOT . '/components/logout.php');
             return true;
         }
+        public function actionDetail_intern() {
+            require_once(ROOT . '/views/inner/detail_internships.php');
+            return true;
+        }
+        public function actionDetail_job() {
+            require_once(ROOT . '/views/inner/detail_job.php');
+            return true;
+        }
+        public function actionDetail_comp() {
+            require_once(ROOT . '/views/inner/detail_comp.php');
+            return true;
+        }
 
     }
 }else{

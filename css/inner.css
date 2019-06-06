@@ -92,7 +92,7 @@ body{
     margin: 0 auto;
     padding-top: 20px;
     /*display: flex;*/
-    height: 70px;
+    height: 80px;
 
 }
 .users{
@@ -348,7 +348,7 @@ m_unregistered.FooterWr {
 }
 .FooterNav_list_item {
     display: inline-block;
-    margin-left: 12px;
+    /*margin-left: 12px;*/
 }
 .m_main_menu.FooterNav_list {
     display: block;

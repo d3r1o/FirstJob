@@ -147,22 +147,22 @@ sub {
     bottom: -0.25em
 }
 
-dl,
-menu,
-ol,
-ul {
-    margin: 1em 0
-}
+/*dl,*/
+/*menu,*/
+/*ol,*/
+/*ul {*/
+/*    margin: 1em 0*/
+/*}*/
 
 dd {
     margin: 0 0 0 40px
 }
 
-menu,
-ol,
-ul {
-    padding: 0 0 0 40px
-}
+/*menu,*/
+/*ol,*/
+/*ul {*/
+/*    padding: 0 0 0 40px*/
+/*}*/
 
 nav ul,
 nav
@@ -1115,9 +1115,6 @@ input {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-top: 50px;
-}
-
-.m_with_controls.sj_stu_block {
 }
 
 .sj_stu_block_controls {

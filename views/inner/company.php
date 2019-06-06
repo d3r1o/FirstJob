@@ -1,6 +1,6 @@
 <?require(ROOT. '/views/inner/header.php'); ?>
 <?include "components/company.php";?>
-<h1 class="sj_typo_h1 Index_h1">Компании</h1>
+<h1 class=" Index_h1">Компании</h1>
 <? foreach($data as $data):?>
     <div class="CompanyList_item sj_stu_block h_clearfix">
         <div class="CompanyList_item_left">
@@ -10,7 +10,7 @@
             <span class="CompanyList_item_contents_item_text"><?=$data['mobile_phone'];?></span>
         </div>
         <div class="CompanyList_item_right">
-            <a href="" class="h_color_black h_border_none">
+            <a href="detail_comp?id=<?=$data['id']?>" class="h_color_black h_border_none">
                 <h2 class="sj_typo_h2 CompanyList_item_company h_color_black"><?=$data['name_org'];?></h2>
             </a>
             <div class="CompanyList_item_catalog h_color_gray_lt"></div>

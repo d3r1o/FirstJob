@@ -1,6 +1,6 @@
 <?require(ROOT. '/views/inner/header.php'); ?>
 <?include "components/firstjob.php";?>
-    <h1 class="sj_typo_h1 Index_h1">Вакансии</h1>
+    <h1 class=" Index_h1">Вакансии</h1>
 <? foreach($data as $data):?>
     <div class="matter stu_block h_position_relative">
         <div>
@@ -11,7 +11,7 @@
                 <div class="sj_badge m_green">Первая работа</div>
             </div>
             <div class="matter_right m_logo">
-                <a href="#" class="h_color_black h_border_none">
+                <a href="detail_job?id=<?=$data['id_company']?>&only=<?=$data['only']?>" class="h_color_black h_border_none">
                     <h2 class="matter_post h_color_black"><?=$data['name'];?></h2>
                 </a>
                 <div class="matter_payment h_color_gray_lt">
