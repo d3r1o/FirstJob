@@ -17,9 +17,9 @@
         'resume' => 'views/resume',
         'detail_res' => 'views/detail_res',
         'add_shape' => 'views/add_shape',
+        'remove_res' => 'views/remove_res',
 
 
-		
 		'' => 'views/index'		
 		//'main' => 'views/template' // actionTemplate в ViewsController	
 	);

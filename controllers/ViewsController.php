@@ -53,9 +53,10 @@ if(isset($_SESSION['login'])){
             require_once(ROOT . '/views/inner/add_shape.php');
             return true;
         }
-
-
-
+        public function actionRemove_res() {
+            require_once(ROOT . '/components/remove_res.php');
+            return true;
+        }
     }
 }else{
     class ViewsController {

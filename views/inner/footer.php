@@ -2,7 +2,7 @@
 <div class="sj_l_footer">
     <footer class="FooterWr m_unregistered">
         <div class="sj_l_content">
-            <div class="FooterNav">
+            <div class="FooterNav" >
                 <ul class="FooterNav_list m_whom_menu">
                     <li class="FooterNav_list_item">
                         <a href="#" target="_blank"><span>Студенту</span></a>

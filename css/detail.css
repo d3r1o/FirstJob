@@ -1659,6 +1659,7 @@ img {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-bottom: 10px;
+    justify-content: space-between;
 }
 .resume_list a {
     color: black;
@@ -1744,4 +1745,9 @@ img {
 }
 .box_title textarea:focus{
     border-color: #2ecc71;
+}
+.delite_res{
+    display: flex;
+    justify-content: space-between;
+
 }

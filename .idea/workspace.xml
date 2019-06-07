@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b664f7-83b0-4e74-b622-33faf8cabf71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/detail_resume.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/resume.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/inner/detail_resume.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/inner/resume.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/add_shape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/remove_res.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/inner/add_shape.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/ViewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ViewsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/inner/feedback_company.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/inner/feedback_student.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/inner/profile_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/inner/profile_student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/inner.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/inner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/inner/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/inner/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/inner/resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/inner/resume.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +35,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/inner/resume.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/add_shape.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/resume.php">
+        <entry file="file://$PROJECT_DIR$/views/inner/resume.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/remove_res.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="11" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/detail.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="1751" selection-start-line="1751" selection-end-line="1751" />
             </state>
           </provider>
         </entry>
@@ -84,8 +98,11 @@
       <find>submit</find>
       <find>.box</find>
       <find>box_title</find>
-      <find>shape</find>
       <find>font</find>
+      <find>user</find>
+      <find>.FooterNav_list_item a</find>
+      <find>shape</find>
+      <find>resume_list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,9 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/components/signup_company.php" />
-        <option value="$PROJECT_DIR$/views/autos/signup_company_form.php" />
-        <option value="$PROJECT_DIR$/components/signup_student.php" />
         <option value="$PROJECT_DIR$/views/autos/signup_student_form.php" />
         <option value="$PROJECT_DIR$/views/inner/feedback_student.php" />
         <option value="$PROJECT_DIR$/views/inner/feedback_company.php" />
@@ -119,7 +133,6 @@
         <option value="$PROJECT_DIR$/views/inner/detail_comp.php" />
         <option value="$PROJECT_DIR$/views/main/detail_internships.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/views/inner/footer.php" />
         <option value="$PROJECT_DIR$/views/inner/internships.php" />
         <option value="$PROJECT_DIR$/views/inner/firstjob.php" />
         <option value="$PROJECT_DIR$/views/inner/company.php" />
@@ -133,24 +146,28 @@
         <option value="$PROJECT_DIR$/components/profile_company.php" />
         <option value="$PROJECT_DIR$/views/main/header.php" />
         <option value="$PROJECT_DIR$/views/inner/header.php" />
-        <option value="$PROJECT_DIR$/components/resume.php" />
         <option value="$PROJECT_DIR$/components/detail_resume.php" />
-        <option value="$PROJECT_DIR$/css/inner.css" />
-        <option value="$PROJECT_DIR$/css/detail.css" />
-        <option value="$PROJECT_DIR$/views/inner/detail_resume.php" />
         <option value="$PROJECT_DIR$/css/slider.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/header.css" />
         <option value="$PROJECT_DIR$/views/inner/profile_student.php" />
-        <option value="$PROJECT_DIR$/views/inner/resume.php" />
+        <option value="$PROJECT_DIR$/views/inner/footer.php" />
+        <option value="$PROJECT_DIR$/components/resume.php" />
+        <option value="$PROJECT_DIR$/views/inner/detail_resume.php" />
+        <option value="$PROJECT_DIR$/css/inner.css" />
+        <option value="$PROJECT_DIR$/views/inner/add_shape.php" />
+        <option value="$PROJECT_DIR$/components/add_shape.php" />
+        <option value="$PROJECT_DIR$/css/detail.css" />
         <option value="$PROJECT_DIR$/config/routes.php" />
         <option value="$PROJECT_DIR$/controllers/ViewsController.php" />
+        <option value="$PROJECT_DIR$/views/inner/resume.php" />
+        <option value="$PROJECT_DIR$/components/remove_res.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="-25" />
+    <option name="x" value="563" />
+    <option name="y" value="234" />
     <option name="width" value="1356" />
     <option name="height" value="742" />
   </component>
@@ -195,19 +212,7 @@
               <item name="FirstJob" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstJob" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="autos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstJob" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="inner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstJob" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,12 +263,12 @@
       <workItem from="1559651938307" duration="2305000" />
       <workItem from="1559715323401" duration="18029000" />
       <workItem from="1559802303898" duration="23803000" />
-      <workItem from="1559831086980" duration="14124000" />
+      <workItem from="1559831086980" duration="18547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130784000" />
+    <option name="totallyTimeSpent" value="135207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -317,73 +322,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../../итог/students_core_css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="107" column="2" lean-forward="true" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
-          <folding>
-            <element signature="e#12529#13192#2" expanded="true" />
-            <element signature="e#14772#15435#2" expanded="true" />
-            <element signature="e#16420#17083#2" expanded="true" />
-            <element signature="e#19517#21050#1" expanded="true" />
-            <element signature="e#21650#22359#1" expanded="true" />
-            <element signature="e#22580#23085#2" expanded="true" />
-            <element signature="e#34099#34762#2" expanded="true" />
-            <element signature="e#35565#36228#2" expanded="true" />
-            <element signature="e#74931#76350#1" expanded="true" />
-            <element signature="e#76526#76821#2" expanded="true" />
-            <element signature="e#95431#96094#2" expanded="true" />
-            <element signature="e#96515#97178#2" expanded="true" />
-            <element signature="e#98075#98738#2" expanded="true" />
-            <element signature="e#102471#104546#2" expanded="true" />
-            <element signature="e#104626#105053#1" expanded="true" />
-            <element signature="e#105170#105669#1" expanded="true" />
-            <element signature="e#105784#106339#1" expanded="true" />
-            <element signature="e#106405#110664#2" expanded="true" />
-            <element signature="e#110718#111145#1" expanded="true" />
-            <element signature="e#111235#120550#2" expanded="true" />
-            <element signature="e#120642#121133#2" expanded="true" />
-            <element signature="e#121243#121890#2" expanded="true" />
-            <element signature="e#121998#122749#2" expanded="true" />
-            <element signature="e#122801#126452#2" expanded="true" />
-            <element signature="e#126520#127151#2" expanded="true" />
-            <element signature="e#127220#127987#2" expanded="true" />
-            <element signature="e#128055#128970#2" expanded="true" />
-            <element signature="e#129050#132557#2" expanded="true" />
-            <element signature="e#132647#133322#1" expanded="true" />
-            <element signature="e#133444#134291#1" expanded="true" />
-            <element signature="e#134411#135486#1" expanded="true" />
-            <element signature="e#135552#137643#2" expanded="true" />
-            <element signature="e#137703#139082#2" expanded="true" />
-            <element signature="e#139134#152693#2" expanded="true" />
-            <element signature="e#152753#154604#2" expanded="true" />
-            <element signature="e#154658#157353#2" expanded="true" />
-            <element signature="e#157415#158670#2" expanded="true" />
-            <element signature="e#158722#162373#2" expanded="true" />
-            <element signature="e#162433#163464#2" expanded="true" />
-            <element signature="e#174303#174966#2" expanded="true" />
-            <element signature="e#240180#240843#2" expanded="true" />
-            <element signature="e#260904#261903#1" expanded="true" />
-            <element signature="e#262097#262372#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/detail.php" />
-    <entry file="file://$PROJECT_DIR$/components/signup_company.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../итог/Traineeship.html.blitz.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/detail_internships.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -406,13 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/company.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -449,20 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="47" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/inner/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/inner/company.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -583,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/profile_student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/detail_job.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -604,17 +514,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/inner/header.php">
+    <entry file="file://$PROJECT_DIR$/css/slider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
+        <state relative-caret-position="17">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+          <folding>
+            <marker date="1559900073191" expanded="true" signature="4442:4460" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/detail_resume.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/inner/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/inner/company.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/inner.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="434">
+          <caret line="484" column="14" selection-start-line="484" selection-start-column="14" selection-end-line="484" selection-end-column="14" />
           <folding>
             <element signature="e#1#35#0" />
             <element signature="e#94#169#0" />
@@ -628,11 +576,6 @@
             <element signature="e#870#1044#0" />
             <element signature="e#1103#1167#0" />
             <element signature="e#1193#1230#0" />
-            <element signature="e#1355#1462#0" />
-            <element signature="e#1469#1491#0" />
-            <element signature="e#1502#1506#0" />
-            <element signature="e#1517#1543#0" />
-            <element signature="e#1567#1609#0" />
             <element signature="e#1631#1692#0" />
             <element signature="e#1697#1740#0" />
             <element signature="e#1744#1790#0" />
@@ -667,118 +610,107 @@
             <element signature="e#4778#4864#0" />
             <element signature="e#4876#4965#0" />
             <element signature="e#4977#5001#0" />
-            <element signature="e#5019#5131#0" />
-            <element signature="e#5144#5199#0" />
-            <element signature="e#5228#5283#0" />
-            <element signature="e#5300#5376#0" />
-            <element signature="e#5410#5433#0" />
-            <element signature="e#5455#5485#0" />
-            <element signature="e#5509#5600#0" />
-            <element signature="e#5629#5664#0" />
-            <element signature="e#5699#5729#0" />
-            <element signature="e#5751#5808#0" />
-            <element signature="e#5837#5937#0" />
-            <element signature="e#5954#5995#0" />
-            <element signature="e#6057#6082#0" />
-            <element signature="e#6132#6158#0" />
-            <element signature="e#6186#6242#0" />
-            <element signature="e#6259#6335#0" />
-            <element signature="e#6353#6452#0" />
-            <element signature="e#6484#6532#0" />
-            <element signature="e#6559#6583#0" />
-            <element signature="e#6608#6704#0" />
-            <element signature="e#6762#6813#0" />
-            <element signature="e#6832#6877#0" />
-            <element signature="e#6892#7036#0" />
-            <element signature="e#7060#7121#0" />
-            <element signature="e#7146#7173#0" />
-            <element signature="e#7231#7282#0" />
-            <element signature="e#7309#7357#0" />
-            <marker date="1559899628305" expanded="false" signature="1750:1763" ph="..." />
-            <marker date="1559899628305" expanded="false" signature="1850:1857" ph="..." />
-            <marker date="1559899628305" expanded="true" signature="8552:8566" ph="..." />
-            <marker date="1559899628305" expanded="true" signature="8748:8767" ph="..." />
+            <marker date="1559905662349" expanded="false" signature="1750:1763" ph="..." />
+            <marker date="1559905662349" expanded="false" signature="1850:1857" ph="..." />
+            <marker date="1559905662349" expanded="true" signature="8681:8695" ph="..." />
+            <marker date="1559905662349" expanded="true" signature="8877:8896" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/slider.css">
+    <entry file="file://$PROJECT_DIR$/views/inner/profile_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/profile_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/company.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/components/signup_student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/inner/detail_resume.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/header.css">
+    <entry file="file://$PROJECT_DIR$/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding>
-            <marker date="1559900073191" expanded="true" signature="4442:4460" ph="..." />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/detail.css">
+    <entry file="file://$PROJECT_DIR$/controllers/ViewsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="8" />
+        <state relative-caret-position="748">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/inner/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/resume.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="11" />
+          <caret line="4" column="158" lean-forward="true" selection-start-line="4" selection-start-column="151" selection-end-line="4" selection-end-column="158" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/inner/detail_resume.php">
+    <entry file="file://$PROJECT_DIR$/views/inner/add_shape.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/detail_resume.php">
+    <entry file="file://$PROJECT_DIR$/components/add_shape.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/inner/profile_student.php">
+    <entry file="file://$PROJECT_DIR$/css/detail.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/ViewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="759">
+          <caret line="1751" selection-start-line="1751" selection-end-line="1751" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/inner/resume.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/remove_res.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
