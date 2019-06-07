@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
 }
 .back_color{
     width: 100%;
@@ -83,7 +83,7 @@ body{
 
 .profile{
     width: 100%;
-    background-color: #4ccece;
+    background-color: #eaeaea;
     /*padding: 10px 10px;*/
     /*margin-bottom: 50px;*/
 }
@@ -276,7 +276,7 @@ a:hover {
 }
 
 .sj_l_footer {
-    background-color: #4ccece;
+    background-color: #eaeaea;
     width: 100%;
 }
 /*контент*/

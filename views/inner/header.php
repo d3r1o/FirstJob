@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/inner.css">
     <link rel="stylesheet" href="/css/detail.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
     <title>FirstJob</title>
 </head>
