@@ -41,6 +41,20 @@ if(isset($_SESSION['login'])){
             require_once(ROOT . '/views/inner/profile_company.php');
             return true;
         }
+        public function actionResume() {
+            require_once(ROOT . '/views/inner/resume.php');
+            return true;
+        }
+        public function actionDetail_res() {
+            require_once(ROOT . '/views/inner/detail_resume.php');
+            return true;
+        }
+        public function actionAdd_shape() {
+            require_once(ROOT . '/views/inner/add_shape.php');
+            return true;
+        }
+
+
 
     }
 }else{

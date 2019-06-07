@@ -1,11 +1,12 @@
 <?require(ROOT. '/views/inner/header.php'); ?>
 <?include "components/profile_student.php";?>
+
 <div class="detail_shape">
     <div class="user_photo">
         <img src="/img/user.jpg">
         <div class="add">
             <div class="add_info">
-                <a href="#">
+                <a href="detail_resume?id=<?=$user['id'];?>">
                     <div class="regis">Мои резюме</div>
                 </a>
                 <a href="#">

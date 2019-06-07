@@ -1651,3 +1651,97 @@ img {
     padding: 20px;
     margin-top: 30px;
 }
+.resume_list{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.resume_list a {
+    color: black;
+
+}
+.resume_list span {
+    margin-bottom: 10px;
+}
+.add_resume{
+    border:0;
+    background: none;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 225px;
+}
+.add_resume:hover{
+    background: #2ecc71;
+}
+
+.add_resume a{
+    color: black;
+    text-decoration: none;
+}
+
+.detail_resume input[type="text"]{
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #CC33FF;
+    padding: 12px 10px;
+    width: 225px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    margin-left: 20px;
+}
+
+.detail_resume input[type="text"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.detail_resume input[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin-left: 38px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 225px;
+}
+.detail_resume input[type="submit"]:hover{
+    background: #2ecc71;
+}
+.box_title textarea {
+    border: 0;
+    background: none;
+    display: block;
+    border: 2px solid #CC33FF;
+    padding: 12px 10px;
+    width: 300px;
+    height: 100px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    resize:none
+
+}
+.box_title textarea:focus{
+    border-color: #2ecc71;
+}

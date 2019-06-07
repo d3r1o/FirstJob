@@ -14,6 +14,10 @@
         'detail_comp' => 'views/detail_comp',
         'profile_student' => 'views/profile_student',
         'profile_crew' => 'views/profile_crew',
+        'resume' => 'views/resume',
+        'detail_res' => 'views/detail_res',
+        'add_shape' => 'views/add_shape',
+
 
 		
 		'' => 'views/index'		
