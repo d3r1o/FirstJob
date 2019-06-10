@@ -69,7 +69,10 @@ if(isset($_SESSION['login'])){
             require_once(ROOT . '/views/inner/post_vacancy.php');
             return true;
         }
-
+        public function actionSet_int() {
+            require_once(ROOT . '/views/inner/lay_intern.php');
+            return true;
+        }
 
 
 

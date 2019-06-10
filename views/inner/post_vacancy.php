@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="box_title" style="float: right">
-                    <input type="submit" name="save" value="Сохранить изменения">
+                    <input type="submit" name="save" value="Добавить вакансию">
                 </div>
             </form>
         </div>

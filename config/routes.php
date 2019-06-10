@@ -21,6 +21,9 @@
         'vacancy_comp' => 'views/vacancy_comp',
         'probation_comp' => 'views/probation_comp',
 		'post_vacancy' => 'views/post_vacancy',
+        'set_int' => 'views/set_int',
+
+
 
 
 

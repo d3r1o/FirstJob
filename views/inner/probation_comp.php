@@ -4,7 +4,7 @@
 
 <h1>Мои Стажировки</h1>
 <div class="add_resume">
-    <a href="add_shape?id=<?=$user['id'];?>">Добавить Стажировку</a>
+    <a href="set_int?id=<?=$user['id'];?>">Добавить Стажировку</a>
 </div>
 <?foreach ($data as $data):?>
     <div class="resume_list">

@@ -26,7 +26,7 @@
                     <input type="text" name="language"  value="">
                 </div>
                 <div class="box_title" style="float: right">
-                    <input type="submit" name="save" value="Сохранить изменения">
+                    <input type="submit" name="save" value="Добавить резюме">
                 </div>
             </form>
         </div>
