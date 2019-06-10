@@ -1,15 +1,17 @@
 <?require(ROOT. '/views/inner/header.php'); ?>
 <?include "components/profile_company.php";?>
+
+
 <div class="detail_shape">
     <div class="user_photo">
         <img src="/img/matter.png" width="100" height="100">
         <div class="add">
             <div class="add_info">
-                <a href="#">
-                    <div class="regis">Мои вакансии</div>
+                <a href="vacancy_comp?id=<?=$crew['id'];?>">
+                    <div class="regis">Вакансии</div>
                 </a>
-                <a href="#">
-                    <div class="regis">Мои стажировки</div>
+                <a href="probation_comp?id=<?=$crew['id'];?>">
+                    <div class="regis">Стажировки</div>
                 </a>
                 <a href="#">
                     <div class="regis">Отклики</div>

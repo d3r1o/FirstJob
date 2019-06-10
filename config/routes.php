@@ -18,6 +18,10 @@
         'detail_res' => 'views/detail_res',
         'add_shape' => 'views/add_shape',
         'remove_res' => 'views/remove_res',
+        'vacancy_comp' => 'views/vacancy_comp',
+        'probation_comp' => 'views/probation_comp',
+
+
 
 
 		'' => 'views/index'		
