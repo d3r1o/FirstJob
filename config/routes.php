@@ -20,6 +20,7 @@
         'remove_res' => 'views/remove_res',
         'vacancy_comp' => 'views/vacancy_comp',
         'probation_comp' => 'views/probation_comp',
+		'post_vacancy' => 'views/post_vacancy',
 
 
 

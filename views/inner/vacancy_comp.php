@@ -4,7 +4,7 @@
 
 <h1>Мои Вакансии</h1>
 <div class="add_resume">
-    <a href="add_shape?id=<?=$user['id'];?>">Добавить Вакансию</a>
+    <a href="post_vacancy?id=<?=$user['id'];?>">Добавить Вакансию</a>
 </div>
 <?foreach ($data as $data):?>
     <div class="resume_list">

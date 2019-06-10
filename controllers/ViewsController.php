@@ -65,6 +65,12 @@ if(isset($_SESSION['login'])){
             require_once(ROOT . '/views/inner/probation_comp.php');
             return true;
         }
+        public function actionPost_vacancy() {
+            require_once(ROOT . '/views/inner/post_vacancy.php');
+            return true;
+        }
+
+
 
 
     }
