@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b664f7-83b0-4e74-b622-33faf8cabf71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/lay_intern.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/inner/lay_intern.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ViewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ViewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/inner/add_shape.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/inner/add_shape.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/inner/post_vacancy.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/inner/post_vacancy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/inner/probation_comp.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/inner/probation_comp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/inner/firstjob.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/inner/firstjob.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/lay_intern.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/inner/firstjob.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -118,7 +118,6 @@
         <option value="$PROJECT_DIR$/views/main/detail_internships.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/views/inner/internships.php" />
-        <option value="$PROJECT_DIR$/views/inner/firstjob.php" />
         <option value="$PROJECT_DIR$/views/inner/company.php" />
         <option value="$PROJECT_DIR$/components/login.php" />
         <option value="$PROJECT_DIR$/../../../../итог/profile.html" />
@@ -154,10 +153,11 @@
         <option value="$PROJECT_DIR$/css/detail.css" />
         <option value="$PROJECT_DIR$/views/inner/lay_intern.php" />
         <option value="$PROJECT_DIR$/components/lay_intern.php" />
+        <option value="$PROJECT_DIR$/views/inner/firstjob.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-20" />
     <option name="y" value="-21" />
     <option name="width" value="1356" />
@@ -256,18 +256,18 @@
       <workItem from="1559715323401" duration="18029000" />
       <workItem from="1559802303898" duration="23803000" />
       <workItem from="1559831086980" duration="19055000" />
-      <workItem from="1560146616655" duration="16871000" />
+      <workItem from="1560146616655" duration="17764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152586000" />
+    <option name="totallyTimeSpent" value="153479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1652452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1652452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -532,20 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/inner/firstjob.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="15" lean-forward="true" selection-start-line="3" selection-end-line="30" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/firstjob.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/detail_job.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -700,6 +686,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/firstjob.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/inner/firstjob.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
         </state>
       </provider>
     </entry>
