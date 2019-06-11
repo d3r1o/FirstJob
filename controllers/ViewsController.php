@@ -57,6 +57,25 @@ if(isset($_SESSION['login'])){
             require_once(ROOT . '/components/remove_res.php');
             return true;
         }
+        public function actionVacancy_comp() {
+            require_once(ROOT . '/views/inner/vacancy_comp.php');
+            return true;
+        }
+        public function actionProbation_comp() {
+            require_once(ROOT . '/views/inner/probation_comp.php');
+            return true;
+        }
+        public function actionPost_vacancy() {
+            require_once(ROOT . '/views/inner/post_vacancy.php');
+            return true;
+        }
+        public function actionSet_int() {
+            require_once(ROOT . '/views/inner/lay_intern.php');
+            return true;
+        }
+
+
+
     }
 }else{
     class ViewsController {

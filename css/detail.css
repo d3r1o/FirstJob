@@ -1705,6 +1705,19 @@ img {
     transition: 0.25s;
     margin-left: 20px;
 }
+.detail_resume input[type="date"]{
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #CC33FF;
+    padding: 12px 10px;
+    width: 225px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    margin-left: 20px;
+}
 
 .detail_resume input[type="text"]:focus{
     width: 280px;
