@@ -312,6 +312,7 @@ m_unregistered.FooterWr {
     font-size: 17px;
     line-height: 17px;
     padding-bottom: 14px;
+    line-height: 1.5;
 }
 .FooterLogo {
     text-align: center;
@@ -505,6 +506,7 @@ m_unregistered.FooterWr {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .regis{

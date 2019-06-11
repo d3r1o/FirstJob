@@ -36,7 +36,7 @@
             <div class="sj_g_row Traineeship_row Traineeship_response_secondbutton">
                 <div class="sj_g_col_md_12 sj_g_col_xs_12 h_mobile_hidden">
                     <div>
-                        <a href="#" class="sj_btn m_green m_medium m_stretch">Откликнуться на стажировку</a>
+                        <a href="login" class="sj_btn m_green m_medium m_stretch">Откликнуться на стажировку</a>
                     </div>
                 </div>
             </div>

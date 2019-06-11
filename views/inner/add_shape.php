@@ -4,7 +4,7 @@
     <h1>Добавить резюме</h1>
     <div class="shape">
         <div class="right">
-            <form method="post" class="detail_resume">
+            <form method="post" class="box">
                 <div class="box_title">
                     Название
                     <input type="text" name="name_resume"  value="">
