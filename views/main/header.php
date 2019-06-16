@@ -19,7 +19,7 @@
     <div class="logo">
 		<div class="logo-item">
 		<?if ($_SERVER[REQUEST_URI]=="/"):?>
-			<img src="/img/logo.png">
+			<img src="/img/logo_main.png">
 		<?else:?>
 			<a href="/">
 				<img src="/img/logo.png">

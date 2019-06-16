@@ -18,6 +18,7 @@ body {
     margin: 0 auto;
     width: 300px;
     padding-top: 50px;
+    text-align: center;
 }
 .social_connect {
     text-align: center;
@@ -29,7 +30,7 @@ body {
 .main_form {
     width: 300px;
     margin: 0 auto;
-    padding-right: 20px;
+   
 }
 
 .log_in {
@@ -44,11 +45,11 @@ body {
 }
 .log_in a {
     text-decoration: none;
-    color: blueviolet;
+    color: #cc33ff;
 }
 .log_in a:hover {
     text-decoration: underline;
-    color: blueviolet;
+    color: #c72ffa;
 }
 .errors{
     font-size: 17px;

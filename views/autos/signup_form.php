@@ -9,7 +9,7 @@
 <div class="content">
     <div class="logo">
 		<a href="/">
-			<img src="../img/logo.png" alt="FirstJob Лого">
+			<img src="../img/logo_main.png" alt="FirstJob Лого">
 		</a>
     </div>
     <div class="social_connect">

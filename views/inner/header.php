@@ -15,7 +15,7 @@
     <div class="top_nav">
         <div class="logo">
             <? if ($_SERVER[REQUEST_URI] == "/"): ?>
-                <img src="/img/logo.png">
+                <img src="/img/logo_inner.png">
             <? else: ?>
                 <a href="/">
                     <img src="/img/logo.png">
